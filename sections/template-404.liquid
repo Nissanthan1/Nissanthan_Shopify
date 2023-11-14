@@ -10,6 +10,8 @@
     <div class="my-4">
         {% if section.settings.button_url == blank %}
             {% assign shop_url = shop.secure_url %}
+        {% else %}
+            {% assign shop_url = section.settings.button_url %}
         {% endif %}
         <a href="{{}}">{{section.settings.button_label}}</a>
     </div>
