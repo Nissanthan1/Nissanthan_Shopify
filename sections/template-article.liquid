@@ -7,3 +7,17 @@
 <img src="{{ article.image | img_url: 'large' }}" alt="{{ article.image.alt }}">
 
 <div>{{ article.content }}</div>
+
+{% schema %}
+{
+    "name": "Template Article",
+    "settings": [
+            {
+                "type": "checkbox",
+                "id": "enable_author",
+                "default": true,
+                "label": "Display Author Name"
+            }
+        ]
+}
+{% endschema %}
