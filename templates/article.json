@@ -30,7 +30,11 @@
         }
       },
       "block_order": [
-        "title"
+        "title",
+        "author",
+        "published_date",
+        "thumbnail",
+        "content"
       ],
       "settings": {
       }
