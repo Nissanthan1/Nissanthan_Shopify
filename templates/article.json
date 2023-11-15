@@ -12,6 +12,11 @@
           "type": "article_author",
           "settings": {
           }
+        },
+        "published_date": {
+          "type": "article_published_date",
+          "settings": {
+          }
         }
       },
       "block_order": [
