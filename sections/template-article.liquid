@@ -1,4 +1,4 @@
-<article>
+<article class="py-8">
     {% for block in section.blocks %}
         {% case block.type %}
             {% when 'article_title' %}
@@ -24,7 +24,7 @@
                 <div class="flex items-center justify-center">
                     <div class="max-w-7xl text-center">
                         {% if section.settings.enable_published_date %}
-                            <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: format: 'basic' }}</time>
+                            <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: format: 'basicx   ' }}</time>
                         {% endif %}
                     </div>
                 </div>
