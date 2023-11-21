@@ -48,6 +48,9 @@
     {% endfor %}
 </article>
 
+{% if blog.comments_enabled? %}
+    Hello Worl
+{% endif %}
 
 {% schema %}
 {
